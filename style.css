@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root {
-    --branco: white;
+    --roxo: purple;
     --cor-de-fundo: #00162E;
     --fundo-senha: #00244D;
     --fundo-texto: #001E40;
     --borda: #0075FF;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --george: 'George', sans-serif;
+    --george-mono: 'George-Mono', monospace;
 }
 
 * {
@@ -15,13 +15,13 @@
 }
 
 body {
-    color: var(--branco);
+    color: var(--roxo);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family: var(--george);
 }
 
 .titulo-principal {
-    font-family: var(--roboto-mono);
+    font-family: var(--george-mono);
     font-size: 32px;
 }
 
@@ -44,8 +44,8 @@ body {
 #campo-senha {
     background-color: var(--fundo-senha);
     border: none;
-    color: var(--branco);
-    font-family: var(--roboto-mono);
+    color: var(--roxo);
+    font-family: var(--george-mono);
     font-size: 40px;
     width: 70%;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .parametro-titulo {
-    font-family: var(--roboto-mono);
+    font-family: var(--george-mono);
     font-size: 28px;
 }
 
@@ -93,7 +93,7 @@ body {
 
 .parametro-senha__botao {
     background-color: var(--fundo-texto);
-    color: var(--branco);
+    color: var(--roxo);
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
